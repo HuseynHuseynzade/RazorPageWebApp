@@ -43,6 +43,7 @@ namespace WebAppRazorPages
             }
 
             app.UseMvc();
+            app.UseStaticFiles();
 
             app.UseMvc(routes =>
             {
